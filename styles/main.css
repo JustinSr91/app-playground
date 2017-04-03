@@ -1,4 +1,7 @@
-
+html, body {
+  height: 100%;
+  width: 100%;
+}
 #sky {
   height: 100%;
   width: 100%;
@@ -13,7 +16,6 @@
 }
 
 #star {
-  background-color: #blue;
   border-radius: 100%;
   padding: 20px;
   position: absolute;

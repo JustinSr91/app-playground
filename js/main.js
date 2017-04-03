@@ -6,15 +6,12 @@ $(document).ready(function() {
     }
     else {
       $('#star').removeClass('moon').addClass('sun');
-    }
-
-  $('#sky').click(function() {
+    };
     if ($('#sky').hasClass('day')) {
         $('#sky').removeClass('day').addClass('night');
     }
     else {
         $('#sky').removeClass('night').addClass('day');
-    }
-  })
+    };
   });
 });
