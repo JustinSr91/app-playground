@@ -1,4 +1,42 @@
 
-.color_night {
+#sky {
+  height: 100%;
+  width: 100%;
+}
+
+.night {
   background-color: black;
+}
+
+.day {
+  background-color: lightblue;
+}
+
+#star {
+  background-color: #blue;
+  border-radius: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.sun {
+  background-color: #ffdd00;
+  border: 10px solid #f1c40f;
+}
+
+.sun:hover {
+  border: 20px solid #f1c40f;
+}
+
+.moon {
+  background-color: #bdc3c7;
+  border: 10px solid #eaeff2;
+}
+
+.moon:hover {
+  border: 10px solid #eaeff2;
 }
